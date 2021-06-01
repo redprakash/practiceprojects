@@ -1,4 +1,35 @@
-.mainimage {
-  text-align: center;
-  border-radius: 10px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #3494e4;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-list {
+  width: 60vw;
+}
+.project-list ul > li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.project-list li::after {
+  content: '|';
+  color: azure;
+}
+.project-list a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.project-list a:hover {
+  font-weight: 500;
+  color: saddlebrown;
 }

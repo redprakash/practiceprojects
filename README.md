@@ -1,5 +1,5 @@
 # practiceprojects
 
-<img src="practice.jpeg" class="mainimage">
+<img src="practice.jpeg">
 <hr>
-This repo will contain random practice projects
+<h3>This repo will contain random practice projects</h3>
