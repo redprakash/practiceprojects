@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+}
+.container {
+  background-color: aqua;
+  height: 100vh;
+}
+.controls {
+  background-color: indianred;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.top-box {
+  background-color: gray;
+  margin: 0;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: topbox;
+  animation-duration: 3s;
+}
+@keyframes topbox {
+  from {
+    background-color: gray;
+  }
+  to {
+    background-color: hotpink;
+  }
+}
+.bottom-box {
+  background-color: green;
+  margin: 0;
+  height: 45vh;
+}
+
+.btn1 {
+  width: 150px;
+  height: 60px;
+  background-color: indigo;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.btn2 {
+  width: 150px;
+  height: 60px;
+  background-color: indigo;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.sometext {
+  padding: 60px;
+  font-size: 1.5rem;
+  background-color: yellowgreen;
+  height: 300px;
+  width: 300px;
+  transition: width 5s, height 5s;
+}
+.sometext:hover {
+  width: 500px;
+  height: 400px;
+  transition-timing-function: ease-in;
+}
+.sometext2 {
+  padding: 60px;
+  background-color: yellowgreen;
+  height: 300px;
+  width: 300px;
+}
+.close {
+  font-size: 2rem;
+  width: 150px;
+  height: 60px;
+  background-color: indigo;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  margin-top: 30px;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+.reset {
+  background-color: cornsilk;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
