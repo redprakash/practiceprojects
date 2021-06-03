@@ -3,7 +3,11 @@
 }
 html {
   font-size: 0.8rem;
-  background-color: azure;
+  background: url('drumbg.jpeg');
+  background-color: beige;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 body,
 html {
@@ -19,7 +23,7 @@ html {
   justify-content: center;
 }
 .key {
-  border: 0.4rem solid black;
+  border: 0.4rem solid rgb(44, 44, 44);
   border-radius: 0.5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -30,6 +34,9 @@ html {
   color: white;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
+}
+.key:hover {
+  cursor: pointer;
 }
 .playing {
   transform: scale(1.1);
